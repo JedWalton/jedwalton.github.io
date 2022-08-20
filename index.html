@@ -102,7 +102,11 @@ Have fun creating your portfolio on this template!!! -->
           I'm a Software Engineer and BCS Professional Member.
         </h1>
         <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+          <!-- Calendly link widget begin -->
+          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+          <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+          <a class="cta-btn cta-btn--hero" href="#about" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/jedwaltonmbcs'});return false;">Get in touch</a>
+<!-- Calendly link widget end -->
         </p>
       </section>
       <a href="#about" class="scroll-down-link" aria-label="scroll-down">
@@ -190,14 +194,14 @@ Have fun creating your portfolio on this template!!! -->
                 Spring Boot Security, H2 database, LocalDateTime, Project Lombok, and other concepts useful for the backend.
               </p>
               <div class="project-wrapper__text-btns">
-                <a href="#" target="_blank" class="cta-btn text-color-main"
+                <a href="https://github.com/JedWalton/Recipes" target="_blank" class="cta-btn text-color-main"
                   >Source Code</a
                 >
               </div>
             </div>
 
             <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/JedWalton/Recipes" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
                     src="./assets/project2.png"
@@ -220,21 +224,14 @@ Have fun creating your portfolio on this template!!! -->
                 that allows the clients to store their data on the server in JSON format.
               </p>
               <div class="project-wrapper__text-btns">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
+                <a href="https://github.com/JedWalton/JSON-Database" target="_blank" class="cta-btn text-color-main"
                   >Source Code</a
                 >
               </div>
             </div>
 
             <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/JedWalton/JSON-Database" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
                     src="./assets/project3.png"
@@ -295,7 +292,7 @@ Have fun creating your portfolio on this template!!! -->
             target="_blank"
             rel="noopener noreferrer"
             >Jed Walton</a
-          >. <br />Made with &hearts;
+          >. <br />jedwaltonmbcs@gmail.com
         </p>
       </div>
     </footer>
